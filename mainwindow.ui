@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="Battletag_Label">
+      <property name="font">
+       <font>
+        <family>BigNoodleTooOblique</family>
+        <pointsize>36</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>NULL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>&lt;IMAGE&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLineEdit" name="Battletag_LineEdit">
+      <property name="placeholderText">
+       <string>Enter your Battletag</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Profile">
+       <attribute name="title">
+        <string>Profile</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="7" column="1">
+         <widget class="QLabel" name="CompetitiveLost_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Losts: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="QuickPlayLost_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Losts: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="QuickPlayWin_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Wins: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="2">
+         <widget class="Line" name="line_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="QuickPlay_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>22</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Quick Play</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="Competitive_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>22</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Competitve</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QProgressBar" name="Level_ProgressBar">
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="format">
+           <string notr="true">LV %p </string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="2">
+         <widget class="Line" name="line">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="CompetitiveWin_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Wins: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="QuickPlaytime_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <weight>50</weight>
+            <italic>true</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Playtime: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="CompetitivePlaytime_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Playtime: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="Line" name="line_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>All Hero - Quick</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="3" column="0">
+         <widget class="QLabel" name="QDeaths_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Deaths: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="QDamageDone_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Damage Done: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="QSoloKills_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Solo Kills: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="QObjectiveKills_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Objective Kills: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="QFinalBlows_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Final Blows: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="QEliminations_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Eliminations: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="2">
+         <widget class="Line" name="line_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="2">
+         <widget class="Line" name="line_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="QMedals_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Medals: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLabel" name="QHealingDone_Label">
+          <property name="font">
+           <font>
+            <family>BigNoodleTooOblique</family>
+            <pointsize>24</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Healing Done: NULL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="2">
+         <widget class="Line" name="line_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>All Hero - Comp</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="Character">
+       <attribute name="title">
+        <string>Hero</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
